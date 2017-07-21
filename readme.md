@@ -1,15 +1,15 @@
-SA
-==========
+# Sentiment Analysis System
 
+## Purpose
+This system includes a regression model which predicts the star of a movie review given the review text. Handcrafted features mainly including N-grams and POS tags are fed into GradientBoostingRegressor and SVR models.
 
-Sentiment analysis for movie review.
+## How to add features？
+1. Define a class to implement FeatureExtractorInterface Interface
+2. Invoke registerFeatureExtractor() of the class in setup method of FeatureExtractor class.
 
-如何增加特征？
-===================
-1. 写一个类实现FeatureExtractorInterface接口
-2. 在FeatureExtractor中的setup方法中调用registerFeatureExtractor()方法注册
+## Contributors
+Qi Li
+Liang Wang
 
-
-如何实现一个模型？
-====================
-写一个类实现Model接口，实现其中的predict(), train()方法。
+## Contact
+Email: qi.li7@mail.mcgill.ca
