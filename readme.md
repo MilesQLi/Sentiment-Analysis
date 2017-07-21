@@ -9,6 +9,7 @@ This system includes a regression model which predicts the star of a movie revie
 
 ## Contributors
 Qi Li
+
 Liang Wang
 
 ## Contact
