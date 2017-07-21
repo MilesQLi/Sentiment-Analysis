@@ -1,0 +1,4 @@
+models/
+bin/
+segmenterdata/
+*.class

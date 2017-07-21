@@ -1,0 +1,5 @@
+model           feature                               mean_squared_error
+All_3_Baseline  NULL                                  2.130625
+SVR             lex + POS + dir + Avg + bias          0.88
+Random Forest   lex + POS + dir + Avg + bias + Sent   0.71
+GBDT            lex + POS + dir + Avg + bias + Sent   ~0.62
